@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Newsletter from './components/Newsletter';
+import HowTo from './components/HowTo';
+import Offers from './components/Offers';
 
 const App: React.FC = () => {
   return (
@@ -10,9 +12,8 @@ const App: React.FC = () => {
       <Header />
       <Hero />
       <Newsletter />
-      {/*
-      <HowTo />
-      <Offers />*/}
+      <HowTo />    
+      <Offers />
     </>
   );
 }
