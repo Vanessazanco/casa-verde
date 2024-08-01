@@ -8,9 +8,9 @@ const App: React.FC = () => {
     <>
       <Header />
       <Hero />
-      <Newsletter />
+      {/*<Newsletter />
       <HowTo />
-      <Offers />
+      <Offers />*/}
     </>
   );
 }

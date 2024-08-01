@@ -19,7 +19,7 @@ const Subtitle = styled.p`
 
 const Hero: React.FC = () => (
   <HeroContainer>
-    <Title>Suas casa com as melhores plantas</Title>
+    <Title>Sua casa com as melhores plantas</Title>
     <Subtitle>Encontre aqui uma vasta seleção de plantas para decorar a sua casa.</Subtitle>
   </HeroContainer>
 );
