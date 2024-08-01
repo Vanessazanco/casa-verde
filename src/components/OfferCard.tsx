@@ -29,13 +29,22 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
+const PlantImage = styled.img`
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+`;
+
 interface OfferCardProps {
   name: string;
   price: string;
+  image: string;
 }
 
-const OfferCard: React.FC<OfferCardProps> = ({ name, price }) => (
+const OfferCard: React.FC<OfferCardProps> = ({ name, price,image }) => (
   <Card>
+    <PlantImage src={image} alt={name} />
     <PlantName>{name}</PlantName>
     <Price>{price}</Price>
     <Button>Comprar</Button>
